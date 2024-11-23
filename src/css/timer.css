@@ -1,0 +1,84 @@
+.input-date {
+    width: 272px;
+    border-radius: 4px;
+    padding: 8px 16px;
+    border: 1px solid #808080;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    margin-bottom: 32px;
+    outline: none;
+    background-color: #fff;
+}
+
+.input-date:hover {
+    border: 1px solid #000;
+}
+
+.input-date:active {
+    border: 1px solid #4e75ff;
+}
+
+.input-date:disabled {
+    border: 1px solid #808080;
+    color: #808080;
+}
+
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+.timer {
+    display: flex;
+    gap: 24px;
+    
+}
+
+.value {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.label {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2e2f42; 
+    text-transform: uppercase;
+}
+
+.input-btn {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 75px;
+    background-color: #cfcfcf;
+    border: none;
+    padding: 8px 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #4e75ff;
+    color: #fff;
+}
+
+.input-btn:hover {
+    background-color: #6c8cff;
+}
+
+.input-btn:disabled {
+    background-color: #cfcfcf;
+    color: #989898;
+}
+

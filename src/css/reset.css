@@ -32,3 +32,11 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.link-back {
+  margin-bottom: 20px;
+  background-color: ivory;
+  padding: 4px;
+  width: 124px;
+  border: 1px solid;
+}
